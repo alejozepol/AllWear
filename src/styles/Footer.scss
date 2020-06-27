@@ -1,0 +1,37 @@
+.footer{
+    background-color:#ec8c86;
+    height: 5auto;
+    padding: 20px 0px;
+}
+.footer-container{
+    max-width: 1040px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    margin: auto;
+}
+.footer-menu li{
+    color: white;    
+    padding: 10px;
+    list-style: none;
+    font-family: 'Oswald', sans-serif;
+}
+.footer-img img{
+    width: 260px
+}
+.footer-about_text{
+    color: white;
+
+
+}
+.footer-about_txt{
+    padding: 10px;
+}
+.footer-about_txt {
+    padding: 10px;
+    list-style: none;
+    font-family: 'Oswald', sans-serif;
+}
+.footer-about_txt a{
+    color: white;
+    text-decoration: none;
+}

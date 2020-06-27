@@ -1,0 +1,37 @@
+div .header{
+    background-color: white;
+    height: auto;
+    align-items: center;
+}
+.header-container{
+        max-width: 1040px;
+        margin: auto;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+}
+.header-img img{
+    padding-left: 20px;
+    height: 120px;
+}
+.header-menu ul{
+    display: flex;
+    padding-right: 30px;
+}
+.header-menu ul li{
+    list-style: none;
+}
+.header-menu ul li a{
+    display: flex;
+    padding-right: 10px;
+    color: #f3ad8d;
+    font-family: 'Oswald', sans-serif;
+    list-style: none;
+    text-decoration: none;
+}
+.header-menu ul li a:hover{
+    display: flex;
+    padding-right: 10px;
+    color: #f40000;
+    font-family: 'Oswald', sans-serif;
+}

@@ -1,0 +1,91 @@
+.portada{
+    height: 600px;
+}
+.background{
+    background-image: url(https://images.pexels.com/photos/3587324/pexels-photo-3587324.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
+    background-size: contain;;
+}
+.portada-text{
+    width: 1040px;
+    margin: auto;
+    position: relative;
+
+}
+.portada-text_title{
+    color: #f3ad8d;
+    font-size: 80px;  
+    position: absolute; 
+    top:400px;
+    font-family: 'Spartan', sans-serif;
+}
+.portada-text_slogan{
+    color: white;
+    font-size: 30px;  
+    position: relative; 
+    top:120px;
+    text-align: right;
+    font-family: 'Spartan', sans-serif;
+    animation-name: animacion1;
+
+    animation-delay: 2s, 2s;
+    animation-iteration-count: infinite, infinite;
+    position: relative;
+    animation-duration: 9s, 5s;
+    text-align: right;
+    width: auto;
+
+}
+.portada-text_img img{
+    position: relative; 
+    top:600px;
+    // height: 300px;
+    // text-align: center;
+    animation-name: animacion1, animacion2;
+
+    animation-delay: 2s, 2s;
+    animation-iteration-count: infinite, infinite;
+    position: relative;
+    animation-duration: 9s, 9s;
+    text-align: right;
+    width: auto;
+}
+.portada-text_container-slogan{
+
+
+    animation-delay: 2s, 2s;
+    animation-iteration-count: infinite, infinite;
+    position: relative;
+    animation-duration: 9s, 5s;
+    text-align: right;
+    width: auto;
+}
+
+// @keyframes animacion1{
+//     0%{
+//         transform: translatey(0px);
+//     }
+//     60%{
+//         transform: translatey(-500px);
+//     }
+//     100%{
+//         transform: translatey(-500px);
+//     }
+// }
+
+// @keyframes animacion2{
+//     0%{
+//         opacity: 0;
+//     }
+//     10%{
+//         opacity: 0;
+//     }
+//     60%{
+//         opacity: 1;
+//     }
+//     70%{
+//         opacity: 0;
+//     }        
+//     100%{
+//         opacity: 0;
+//     }
+// }
