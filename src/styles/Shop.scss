@@ -18,6 +18,7 @@
 
 li:hover > ul {
     display:block;
+    cursor: pointer;
 }
 li ul{
     display:none;
@@ -45,3 +46,4 @@ li ul{
     grid-column-start: 0;
     grid-column-end: 3;
 }
+

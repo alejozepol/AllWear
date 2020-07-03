@@ -18,41 +18,57 @@ const Shop = () => {
 
   const [products, setProducts] = useState(initialState.allProducts);
 
-  const filterProducts = (category3) => {
+  const filterProducts3 = (category3) => {
     const p = initialState.allProducts.filter((item) => item.category3 === category3);
     setProducts(p);
   };
-
+  const filterProductsInialState = () => {
+    const p = initialState.allProducts;
+    setProducts(p);
+  };
   return (
     <div className='shop-container'>
       <div className='aside-container'>
         <div className='title'>
-          <h2>Categorias</h2>
+          <h2 onClick={() => filterProductsInialState()}>Categorias</h2>
         </div>
         <div className='aside'>
-          {
-            initialState.allProducts.map((item) => (
-              <ul>
-                <li className='shop-category'>
-                  {item.category1}
+          <ul>
+            {
+              initialState.Categorys.map((item) => (
+                <li key={item.id} className='shop-category'>
+                  {item.name}
                   <ul>
-                    <li className='shop-subcategory'>
-                      {item.category2}
-                      <ul>
-                        <li className='shop-microcategory' onClick={() => filterProducts(item.category3)}>
-                          {item.category3}
+                    {
+                      item.nivel2.map((item) => (
+                        <li key={item.id} className='shop-subcategory'>
+                          {item.name}
+                          <ul>
+                            {
+                              item.nivel3.map((item) => (
+                                <li
+                                  key={item.id}
+                                  className='shop-subcategory'
+                                  onClick={() => filterProducts3(item)}
+                                >
+                                  {item}
+                                </li>
+                              ))
+                            }
+                          </ul>
                         </li>
-                      </ul>
-                    </li>
+                      ))
+                    }
                   </ul>
                 </li>
-              </ul>
-            ))
-          }
+              ))
+            }
+          </ul>
+          <h3 onClick={() => filterProductsInialState()}>Todos los productos</h3>
         </div>
       </div>
       <div className='shop-box'>
-        <div className='shop-box_title'><h2>title</h2></div>
+        <div className='shop-box_title'><h2>Productos</h2></div>
         <div className='shop-box__container'>
           {products.map((item) => <Product key={item.id} {...item} />)}
         </div>

@@ -1,14 +1,14 @@
 import React, { Component } from 'react';
 import '../styles/Footer.scss';
-import logo from '../images/logo.png';
+import logo from '../images/logobn.png';
 
 class Footer extends Component {
   render() {
     return (
       <div className='footer'>
         <div className='footer-container'>
-          <div className='footer-'>
-          <img src={logo} alt='logo' />
+          <div className='footer-img'>
+            <img src={logo} alt='logo' />
           </div>
           <div className='footer-menu'>
             <ul>
@@ -20,8 +20,14 @@ class Footer extends Component {
           <div className='footer-about'>
             <div className='footer-about_text'>
               <p className='footer-about_txt'>Bogotá, Colombia</p>
-              <p className='footer-about_txt'><a href="https://wa.me/573023367951"><strong>Telefono</strong> <span>+573023367951</span></a></p>
-              <p className='footer-about_txt'>contacto@allwear.com.co</p>
+              <p className='footer-about_txt'>
+                <a href='https://wa.me/573023367951'>
+                  <strong>Telefono</strong>
+                  {' '}
+                  <span>+573023367951</span>
+                </a>
+              </p>
+              <p className='footer-about_txt'>allwear.gcd@gmail.com</p>
             </div>
           </div>
           <div className='footer-' />

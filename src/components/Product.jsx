@@ -2,7 +2,7 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import '../styles/Product.scss';
 
-const Product = ({ cover, category1, category2, title, description }) => (
+const Product = ({ cover, category1, category2, category3, title, description, colores, talla, precio, REF }) => (
   <div className='product'>
     <div className='product-container'>
       <div className='product-img'>
@@ -14,6 +14,7 @@ const Product = ({ cover, category1, category2, title, description }) => (
         <div className='product-tags_hastags'>
           <Link to='/'>{category1}</Link>
           <Link to='/'>{category2}</Link>
+          <Link to='/'>{category3}</Link>
         </div>
       </div>
       <div className='product-text_container'>
@@ -22,8 +23,12 @@ const Product = ({ cover, category1, category2, title, description }) => (
         </div>
         <div className='product-text'>
           {description}
+          {colores}
+          {talla}
+          {precio}
+          {REF}
           <div className='readMore'>
-            <Link to='/'>comprar</Link>
+            <a href='https://wa.me/573023367951?text='>comprar</a>
           </div>
         </div>
       </div>

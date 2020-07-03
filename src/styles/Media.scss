@@ -1,0 +1,101 @@
+@media only screen and  (max-width: 700px) {
+    div .header{
+        background-color: black;
+        height: auto;
+        align-items: center;
+    }
+    .shop-container {
+        display: block;
+    }
+    .footer-container {
+      display: block;
+    }
+    .shop-box__container{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        margin: auto;
+        grid-gap: 20px;
+    }
+    .contacto-container{
+        margin: auto;
+
+        display: block;
+        padding: 40px;
+    }
+  }
+  @media screen and (max-width: 480px) {
+    div .header{
+        background-color: black;
+        height: auto;
+        align-items: center;
+    }
+    .shop-container{
+        display: block;
+    }
+    .footer-container{
+        max-width: 480px;
+        display: grid;
+        grid-template-columns: 1fr;
+        margin: auto; }
+    .shop-box__container{
+        display: block;
+        grid-template-columns: repeat(1,1fr);
+        margin: auto;
+        grid-gap: 20px;
+    }
+  }
+
+//   @media screen and (max-width: 1024px) {
+//     .footer-container{
+//         max-width: 1040px;
+//         display: block;
+//         grid-template-columns: 1fr;
+//         margin: auto; }
+//     .shop-box__container{
+//         display: grid;
+//         grid-template-columns: repeat(1,1fr);
+//         margin: auto;
+//         grid-gap: 20px;
+//     }
+//   }
+
+
+// @media screen and  (min-width: 768px) {
+//     .footer-container {
+//       display: block;
+//     }
+//     .shop-box__container{
+//         display: grid;
+//         grid-template-columns: repeat(2,1fr);
+//         margin: auto;
+//         grid-gap: 20px;
+//     }
+//   }
+//   @media screen and (min-width: 480px) {
+//     .footer-container{
+//         max-width: 1040px;
+//         display: block;
+//         grid-template-columns: 1fr;
+//         margin: auto; }
+//     .shop-box__container{
+//         display: grid;
+//         grid-template-columns: repeat(1,1fr);
+//         margin: auto;
+//         grid-gap: 20px;
+//     }
+//   }
+
+//   @media screen and (min-width: 320px) {
+//     .footer-container{
+//         max-width: 1040px;
+//         display: block;
+//         grid-template-columns: 1fr;
+//         margin: auto; }
+//     .shop-box__container{
+//         display: grid;
+//         grid-template-columns: repeat(1,1fr);
+//         margin: auto;
+//         grid-gap: 20px;
+//     }
+//   }
+

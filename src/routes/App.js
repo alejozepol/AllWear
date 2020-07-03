@@ -4,7 +4,7 @@ import Home from '../container/Home';
 import Tienda from '../container/Tienda';
 import NotFound from '../container/NotFound';
 import Layout from '../components/Layout';
-import '../styles/Responsive.scss';
+import '../styles/App.scss';
 
 const App = () => (
   <BrowserRouter>
