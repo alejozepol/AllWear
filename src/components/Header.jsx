@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import '../styles/Header.scss';
 import { Link } from 'react-router-dom';
 import logo from '../images/logo.png';
 
@@ -11,12 +10,10 @@ class Header extends Component {
           <figure className='header-img'>
             <Link to='/'><img src={logo} alt='logo' /></Link>
           </figure>
-          <span className="burguer-button icon-menu" id="burguer-button"></span>
-          <nav className="header-menu" id="menu">
+          <span className='burguer-button icon-menu' id='burguer-button' />
+          <nav className='header-menu' id='menu'>
             <ul>
-              <li><Link to='/tienda'>PRODUCTOS</Link></li>
-              <li><Link to='/'>SERVICIOS</Link></li>
-              <li><Link to='/blog'>BLOG</Link></li>
+              <li><Link to='/portafolio'>PORTAFOLIO</Link></li>
             </ul>
           </nav>
         </div>
@@ -24,8 +21,5 @@ class Header extends Component {
     );
   }
 }
-
-
-
 
 export default Header;

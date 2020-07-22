@@ -1,6 +1,5 @@
 
 import React, { Component } from 'react';
-import '../styles/Portada.scss';
 
 class Portada extends Component {
   render() {
@@ -9,13 +8,13 @@ class Portada extends Component {
         <div className='portada background'>
           <div className='portada-text'>
             <div className='portada-text_title'>
-              Accesorios 
+              Accesorios
               <br />
               para bailarinas
             </div>
             <div className='portada-text_container-slogan'>
               <div className='portada-text_slogan'>
-                Estamos creando algo 
+                Estamos creando algo
                 <br />
                 maravilloso para ti
               </div>

@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import '../styles/Footer.scss';
+import { Link } from 'react-router-dom';
 import logo from '../images/logobn.png';
 
 class Footer extends Component {
@@ -8,13 +8,13 @@ class Footer extends Component {
       <div className='footer'>
         <div className='footer-container'>
           <div className='footer-img'>
-            <img src={logo} alt='logo' />
+            <img className='footer-img_img' src={logo} alt='logo' />
+
           </div>
           <div className='footer-menu'>
             <ul>
-              <li>Inicio</li>
-              <li>Tienda</li>
-              <li>Blog</li>
+              <li><Link to='/'>INICIO</Link></li>
+              <li><Link to='/portafolio'>PORTAFOLIO</Link></li>
             </ul>
           </div>
           <div className='footer-about'>
@@ -30,7 +30,16 @@ class Footer extends Component {
               <p className='footer-about_txt'>allwear.gcd@gmail.com</p>
             </div>
           </div>
-          <div className='footer-' />
+          <div className='footer-'>
+            <div className='footer-about_text'>
+              ALL WE – AR by Lorena Alfonso.
+              Comunidad en movimiento.
+              <br />
+              Asesoría y venta de artículos para danza de marcas nacionales e internacionales con enfoque especial en prevención de lesiones con el uso de las zapatillas de punta.
+              <br />
+              Gestión de espacios para compartir con estudiantes, maestros y personalidades de la danza para promover el crecimiento del conocimiento en el sector y la práctica de los distintos géneros de movimiento a través de talleres gratuitos, conversatorios y clases dirigidas a niñas, estudiantes de danza y adultos.
+            </div>
+          </div>
         </div>
       </div>
     );

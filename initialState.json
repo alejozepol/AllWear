@@ -8,7 +8,7 @@
               "name": "Ballet",
               "nivel3": [
                 "Trusas",
-                "zapatillas"
+                "Zapatillas"
               ]
             }
           ]
@@ -34,7 +34,7 @@
           "category2" : "Ballet",
           "category3": "Trusas",
           "description": "Trusa en lycra de tiras CAPEZIO - Twist Back",
-          "colores": "Negro",
+          "color1": "Negro",
           "talla": "S-M",
           "precio":"$210.000",
           "REF": "MC102"
@@ -48,7 +48,7 @@
           "category2" : "Ballet",
           "category3": "Trusas",
           "description": "Trusa en lycra de tiras CAPEZIO - Copas internas",
-          "colores": "Negro",
+          "color1": "Negro",
           "talla": "S-M",
           "precio":"$210.000",
           "REF": "MC110"
@@ -62,7 +62,7 @@
           "category2" : "Ballet",
           "category3": "Trusas",
           "description": "Trusa en lycra cuello bandeja CAPEZIO - Espalda profunda",
-          "colores": "Negro",
+          "color1": "Negro",
           "talla": "S-M",
           "precio":"$210.000",
           "REF": "MC220"
@@ -72,41 +72,17 @@
           "id": 4,
           "title": "Trusa básica",
           "cover": "http://allwear.com.co/images/trusas/TB135_Negro.jpg",
+          "cover2": "http://allwear.com.co/images/trusas/TB135_Royal.jpg",
+          "cover3": "http://allwear.com.co/images/trusas/TB135_Rojo.jpg",
           "category1": "Danza",
           "category2" : "Ballet",
           "category3": "Trusas",
           "description": "Trusa básica en lycra manga larga CAPEZIO",
-          "colores": "Negro",
+          "color1": "Negro",
+          "color2": "Azul marino",
+          "color3": "Rojo",
           "talla": "S-M",
           "precio":"$130.000",
-          "REF": "TB135"
-
-        },
-        {
-          "id": 5,
-          "title": "Trusa básica",
-          "cover": "http://allwear.com.co/images/trusas/TB135_Royal.jpg",
-          "category1": "Danza",
-          "category2" : "Ballet",
-          "category3": "Trusas",
-          "description": "Trusa básica en lycra manga larga CAPEZIO",
-          "colores": "Azul marino",
-          "talla": "S-M",
-          "precio":"$210.000",
-          "REF": "TB135"
-
-        },
-        {
-          "id": 6,
-          "title": "Trusa básica",
-          "cover": "http://allwear.com.co/images/trusas/TB135_Rojo.jpg",
-          "category1": "Danza",
-          "category2" : "Ballet",
-          "category3": "Trusas",
-          "description": "Trusa básica en lycra manga larga CAPEZIO",
-          "colores": "rojo",
-          "talla": "S-M",
-          "precio":"$210.000",
           "REF": "TB135"
 
         },
@@ -118,7 +94,7 @@
           "category2" : "Ballet",
           "category3": "Trusas",
           "description": "Trusa de diseño manga sisa CAPEZIO - Con velo en la espalda ",
-          "colores": "Negro",
+          "color1": "Negro",
           "talla": "S-M",
           "precio":"$220.000",
           "REF": "MC829W"
@@ -132,7 +108,7 @@
           "category2" : "Ballet",
           "category3": "Trusas",
           "description": "Trusa de diseño manga sisa CAPEZIO - Con velo en la espalda ",
-          "colores": "Negro",
+          "color1": "Negro",
           "talla": "S-M",
           "precio":"$220.000",
           "REF": "MC831W"
@@ -145,8 +121,8 @@
           "category1": "Danza",
           "category2" : "Ballet",
           "category3": "Trusas",
-          "description": "Trusa de diseño manga larga GRISHKO - Con velo y diseños en terciopelo",
-          "colores": "Negro",
+          "description": "GRISHKO - Con velo y diseños en terciopelo",
+          "color1": "Negro",
           "talla": "S",
           "precio":"$240.000",
           "REF": "DA1941MP"          
@@ -156,28 +132,16 @@
           "id": 10,
           "title": "Trusa de diseño manga larga",
           "cover": "http://allwear.com.co/images/trusas/DA1932MP_BLACK.jpg",
+          "cover2": "http://allwear.com.co/images/trusas/DA1932MP_ROSA.jpg",
           "category1": "Danza",
           "category2" : "Ballet",
           "category3": "Trusas",
-          "description": "Trusa de diseño manga larga GRISHKO - Con velo y diseños en terciopelo",
-          "colores": "Negro",
+          "description": "GRISHKO - Con velo y diseños en terciopelo",
+          "color1": "Negro",
+          "color2": "Rosado",
           "talla": "XS-S-M",
           "precio":"$210.000",
           "REF": "DA1932MP"
-        },
-        {
-          "id": 11,
-          "title": "Trusa de diseño manga sisa",
-          "cover": "http://allwear.com.co/images/trusas/DA1932MP_ROSA.jpg",
-          "category1": "Danza",
-          "category2" : "Ballet",
-          "category3": "Trusas",
-          "description": "Trusa de diseño manga sisa GRISHKO - Con forma strapless y delicado velo en pecho y espalda del color de la lycra",
-          "colores": "Rosado",
-          "talla": "XS-S-M",
-          "precio":"$210.000",
-          "REF": "DA1932MP"
-
         },
         {
           "id": 12,
@@ -186,8 +150,8 @@
           "category1": "Danza",
           "category2" : "Ballet",
           "category3": "Trusas",
-          "description": "Trusa de diseño manga sisa GRISHKO - Con forma strapless y delicado velo en pecho y espalda del color de la lycra",
-          "colores": "Crema",
+          "description": "Trusa de diseño manga sisa GRISHKO - Con forma strapless y delicado velo en pecho y espalda del color1 de la lycra",
+          "color1": "Crema",
           "talla": "XS-S-M",
           "precio":"$210.000",
           "REF": "DA1932MP"
@@ -200,8 +164,8 @@
           "category1": "Danza",
           "category2" : "Ballet",
           "category3": "Trusas",
-          "description": "Trusa de diseño manga larga GRISHKO - Con velos color piel en el pecho y del color de la lycra en las mangas",
-          "colores": "Negro",
+          "description": "GRISHKO - Con velos color piel en el pecho y del color de la lycra en las mangas",
+          "color1": "Negro",
           "talla": "XS-S-M",
           "precio":"$230.000",
           "REF": "DA1931MP"
@@ -214,8 +178,8 @@
           "category1": "Danza",
           "category2" : "Ballet",
           "category3": "Trusas",
-          "description": "Trusa de diseño manga larga GRISHKO - Con velos color piel en el pecho y del color de la lycra en las mangas",
-          "colores": "Gris",
+          "description": "GRISHKO - Con velos color piel en el pecho y del color de la lycra en las mangas",
+          "color1": "Gris",
           "talla": "XS-S-M",
           "precio":"$230.000",
           "REF": "DA1931MP"
@@ -228,10 +192,10 @@
           "category1": "Danza",
           "category2" : "Ballet",
           "category3": "Trusas",
-          "description": "Trusa de diseño manga 3/4 EUROTARD - Con velo en pecho, espalda y mangas",
-          "colores": "Negro",
+          "description": "EUROTARD - Con velo en pecho, espalda y mangas",
+          "color1": "Negro",
           "talla": "XS-S-M-L",
-          "precio":"$170.000",
+          "precio":"$200.000",
           "REF": "41592"
 
         },
@@ -242,10 +206,10 @@
           "category1": "Danza",
           "category2" : "Ballet",
           "category3": "Trusas",
-          "description": "Trusa de diseño cuello alto, manga sisa y espalda descubierta EUROTARD - Con velo en pecho, espalda y mangas",
-          "colores": "Negro",
+          "description": "Manga sisa y espalda descubierta EUROTARD - Con velo en pecho.",
+          "color1": "Negro",
           "talla": "XS-S-M-L",
-          "precio":"$200.000",
+          "precio":"$170.000",
           "REF": "41596"
 
         },
@@ -256,8 +220,8 @@
           "category1": "Danza",
           "category2" : "Ballet",
           "category3": "Trusas",
-          "description": "Trusa de diseño manga sisa EUROTARD - Con velo en pecho, mangas y espalda",
-          "colores": "Negro",
+          "description": "EUROTARD - Con velo en pecho, mangas y espalda",
+          "color1": "Negro",
           "talla": "XS-S-M-L",
           "precio":"$170.000",
           "REF": "59898"
@@ -270,8 +234,8 @@
           "category1": "Danza",
           "category2" : "Ballet",
           "category3": "Trusas",
-          "description": "Trusa de diseño manga sisa EUROTARD - Con velo en pecho, cintura y espalda",
-          "colores": "Negro",
+          "description": "EUROTARD - Con velo en pecho, cintura y espalda",
+          "color1": "Negro",
           "talla": "XS-S-M-L",
           "precio":"$170.000",
           "REF": "59899"
@@ -285,7 +249,7 @@
           "category2" : "Ballet",
           "category3": "Trusas",
           "description": "Trusa de diseño manga 3/4 con diseño en espalda marca EUROTARD - Con velo de rayas en pecho, espalda y mangas",
-          "colores": "Negro",
+          "color1": "Negro",
           "talla": "XS-S-M-L",
           "precio":"$200.000",
           "REF": "61751"
@@ -299,7 +263,7 @@
           "category2" : "Ballet",
           "category3": "Trusas",
           "description": "Trusa en lycra cuello bandeja manga sisa EUROTARD - Espalda profunda con diseño de brillantes en pecho y espalda",
-          "colores": "Negro",
+          "color1": "Negro",
           "talla": "XS-S-M-L",
           "precio":"$170.000",
           "REF": "62598"
@@ -309,307 +273,243 @@
           "id": 21,
           "title": "Trusa básica",
           "cover": "http://allwear.com.co/images/trusas/44527M.JPG",
+          "cover2": "http://allwear.com.co/images/trusas/44527m_pink.jpg",
+          "cover3": "http://allwear.com.co/images/trusas/44527M_blanco.jpg",
+          "cover4": "http://allwear.com.co/images/trusas/44527m_azul%20claro.jpg",
+          "cover5": "http://allwear.com.co/images/trusas/44527m_rojo.jpg",
           "category1": "Danza",
           "category2" : "Ballet",
           "category3": "Trusas",
           "description": "Trusa básica de tiras en lycra EUROTARD - Espalda profunda y recogido en pecho",
-          "colores": "Negro",
+          "color1": "Negro",
+          "color2": "Rosado",
+          "color3": "Blanco",
+          "color4": "Azul claro",
+          "color5": "Rojo",
           "talla": "XS-S-M-L",
           "precio":"$70.000",
-          "REF": "44527M"
+          "REF": "44527M",
+          "colors":[
+            {
+              "cover":"http://allwear.com.co/images/fitness/agility.png",
+              "color":"Negro"
+            },
+            {
+              "cover":"http://allwear.com.co/images/fitness/agility.png",
+              "color":"Rosado"
+            }
+          ]
 
         },
-        {
-          "id": 22,
-          "title": "Trusa básica",
-          "cover": "http://allwear.com.co/images/trusas/44527m_pink.jpg",
-          "category1": "Danza",
-          "category2" : "Ballet",
-          "category3": "Trusas",
-          "description": "Trusa básica de tiras en lycra EUROTARD - Espalda profunda y recogido en pecho",
-          "colores": "Rosado",
-          "talla": "XS-S-M-L",
-          "precio":"$70.000",
-          "REF": "44527M"
-
-        },
-        {
-          "id": 23,
-          "title": "Trusa básica",
-          "cover": "http://allwear.com.co/images/trusas/44527M_blanco.jpg",
-          "category1": "Danza",
-          "category2" : "Ballet",
-          "category3": "Trusas",
-          "description": "Trusa básica de tiras en lycra EUROTARD - Espalda profunda y recogido en pecho",
-          "colores": "Blanco",
-          "talla": "XS-S-M-L",
-          "precio":"$70.000",
-          "REF": "44527M"
-
-        },
-        {
-          "id": 24,
-          "title": "Trusa básica",
-          "cover": "http://allwear.com.co/images/trusas/44527m_azul%20claro.jpg",
-          "category1": "Danza",
-          "category2" : "Ballet",
-          "category3": "Trusas",
-          "description": "Trusa básica de tiras en lycra EUROTARD - Espalda profunda y recogido en pecho",
-          "colores": "Azul claro",
-          "talla": "XS-S-M-L",
-          "precio":"$70.000"
-
-        },
-        {
-          "id": 25,
-          "title": "Trusa básica",
-          "cover": "http://allwear.com.co/images/trusas/44527m_rojo.jpg",
-          "category1": "Danza",
-          "category2" : "Ballet",
-          "category3": "Trusas",
-          "description": "Trusa básica de tiras en lycra EUROTARD - Espalda profunda y recogido en pecho",
-          "colores": "Rojo",
-          "talla": "XS-S-M-L",
-          "precio":"$70.000",
-          "REF": "44527M"
-
-        },        
         {
           "id": 26,
-          "title": "Zapatilla",
+          "title": "Zapatilla de media punta.",
           "cover": "http://allwear.com.co/images/zapatillas/A1004A%20Bronceado.JPG",
           "category1": "Danza",
           "category2" : "Ballet",
-          "category3": "zapatillas",
-          "description": "Zapatilla de media punta. Suela dividida. Fabricada en lona elastizada.",
-          "colores": "Bronceado",
+          "category3": "Zapatillas",
+          "description": "Suela dividida. Fabricada en lona elastizada.",
+          "color1": "Bronceado",
           "talla": "34-35-36-37-38-39-40",
           "precio":"$80.000"
 
         },
         {
           "id": 28,
-          "title": "Zapatilla",
+          "title": "Zapatilla de media punta.",
           "cover": "http://allwear.com.co/images/zapatillas/A1004A%20Negro.jpg",
+          "cover2": "http://allwear.com.co/images/zapatillas/A1004A%20Pink.JPG",
           "category1": "Danza",
           "category2" : "Ballet",
-          "category3": "zapatillas",
-          "description": "Zapatilla de media punta. Suela dividida. Fabricada en lona elastizada.",
-          "colores": "Negro",
-          "talla": "34-35-36-37-38-39-40",
-          "precio":"$80.000"
-
-        },
-        {
-          "id": 29,
-          "title": "Zapatilla",
-          "cover": "http://allwear.com.co/images/zapatillas/A1004A%20Pink.JPG",
-          "category1": "Danza",
-          "category2" : "Ballet",
-          "category3": "zapatillas",
-          "description": "Zapatilla de media punta. Suela dividida. Fabricada en lona elastizada.",
-          "colores": "Pink",
+          "category3": "Zapatillas",
+          "description": "Suela dividida. Fabricada en lona elastizada.",
+          "color1": "Negro",
+          "color2": "Rosa Ballet",
           "talla": "34-35-36-37-38-39-40",
           "precio":"$80.000"
 
         },
         {
           "id": 30,
-          "title": "Zapatilla",
+          "title": "Zapatilla en lona elástica",
           "cover": "http://allwear.com.co/images/zapatillas/A1004C.jpg",
           "category1": "Danza",
           "category2" : "Ballet",
-          "category3": "zapatillas",
+          "category3": "Zapatillas",
           "description": "Zapatilla de media punta. Suela dividida. Fabricada en lona elastizada. ",
-          "colores": "Rosado Ballet",
+          "color1": "Rosado Ballet",
           "talla": "34-35-36-37-38-39-40",
           "precio":"$80.000"
-
         },
         {
           "id": 31,
-          "title": "Zapatilla",
+          "title": "Zapatilla en cuero",
           "cover": "http://allwear.com.co/images/zapatillas/A2004A.JPG",
           "category1": "Danza",
           "category2" : "Ballet",
-          "category3": "zapatillas",
+          "category3": "Zapatillas",
           "description": "Zapatilla de media punta. Suela dividida. Fabricada en cuero natural.",
-          "colores": "Rosado Ballet",
+          "color1": "Rosado Ballet",
           "talla": "34-35-36-37-38-39-40",
           "precio":"$80.000"
 
         },
         {
           "id": 32,
-          "title": "Zapatilla",
+          "title": "Zapatilla Dream Point",
           "cover": "http://allwear.com.co/images/zapatillas/Dream%20Pointe%202007.png",
           "category1": "Danza",
           "category2" : "Ballet",
-          "category3": "zapatillas",
-          "description": "Zapatilla de punta prearqueada de alta resitencia. Innovadora (polímero flexible). Ideal para nivel Avanzado",
-          "colores": "Azul claro",
+          "category3": "Zapatillas",
+          "description": "Zapatilla de punta prearqueada de alta resistencia. Innovadora (polímero flexible). Ideal para nivel Avanzado",
+          "color1": "Azul claro",
           "talla": "35-36-37-38-39",
           "precio":"$320.000"
 
         },
         {
           "id": 33,
-          "title": "Zapatilla",
+          "title": "Zapatilla Pro flex",
           "cover": "http://allwear.com.co/images/zapatillas/Grishko%202007%20Pro%20Flex.png",
           "category1": "Danza",
           "category2" : "Ballet",
-          "category3": "zapatillas",
+          "category3": "Zapatillas",
           "description": "Zapatilla de punta suave. Tradicional. Ideal para principiantes",
-          "colores": "Rosa",
+          "color1": "Rosa",
           "talla": "34-35-36-37-38-39",
           "precio":"$300.000"
 
         },
         {
           "id": 34,
-          "title": "Zapatilla",
+          "title": "Zapatilla Pro Avanzado",
           "cover": "http://allwear.com.co/images/zapatillas/Grishko%202007%20Pro%20H.png",
           "category1": "Danza",
           "category2" : "Ballet",
-          "category3": "zapatillas",
-          "description": "Zapatilla de punta de altísima resitencia. Tradicional. Ideal para nivel Avanzado",
-          "colores": "Rosa",
+          "category3": "Zapatillas",
+          "description": "Zapatilla de punta de altísima resistencia. Tradicional. Ideal para nivel Avanzado",
+          "color1": "Rosa",
           "talla": "34-35-36-37-38-39",
           "precio":"$320.000"
 
         },
         {
           "id": 35,
-          "title": "Zapatilla",
+          "title": "Zapatilla Pro Intermedio",
           "cover": "http://allwear.com.co/images/zapatillas/Grishko%202007%20Pro.png",
           "category1": "Danza",
           "category2" : "Ballet",
-          "category3": "zapatillas",
-          "description": "Zapatilla de punta de alta resitencia. Tradicional. Ideal para nivel Intermedio",
-          "colores": "Rosa",
+          "category3": "Zapatillas",
+          "description": "Zapatilla de punta de alta resistencia. Tradicional. Ideal para nivel Intermedio",
+          "color1": "Rosa",
           "talla": "34-35-36-37-38-39",
           "precio":"$320.000"
 
         },
         {
           "id": 36,
-          "title": "Agility  set",
-          "cover": "http://allwear.com.co/images/fitness/agility.jpg",
+          "title": "Agility  kit",
+          "cover": "http://allwear.com.co/images/fitness/agility.png",
           "category1": "Fitness",
           "category2" : "unica",
           "category3": "Fitness",
-          "description": "Agility  set",
-          "colores": "",
+          "description": "Agility  kit",
+          "color1": "",
           "talla": "",
-          "precio":""
+          "precio":"$100.000"
 
         },
         {
           "id": 37,
-          "title": "Balón",
+          "title": "Balón para pilates",
           "cover": "http://allwear.com.co/images/fitness/balon.jpeg",
           "category1": "Fitness",
           "category2" : "unica",
           "category3": "Fitness",
           "description": "Fitness",
-          "colores": "",
+          "color1": "",
           "talla": "",
-          "precio":"",
+          "precio":"$80.000",
           "REF": ""          
 
         },
         {
           "id": 38,
-          "title": "Balones",
-          "cover": "http://allwear.com.co/images/fitness/balones.jpg",
+          "title": "Balon medicinal 3kg",
+          "cover": "http://allwear.com.co/images/fitness/balon3kg.png",
           "category1": "Fitness",
           "category2" : "unica",
           "category3": "Fitness",
           "description": "Balones",
-          "colores": "",
+          "color1": "",
           "talla": "",
-          "precio":"",
+          "precio":"$60.000",
           "REF": ""
         },
         {
-          "id": 39,
-          "title": "Banda Elastica",
-          "cover": "http://allwear.com.co/images/fitness/banda_elastica.jpg",
+          "id": 138,
+          "title": "Balon medicinal 7kg",
+          "cover": "http://allwear.com.co/images/fitness/balon7kg.png",
           "category1": "Fitness",
           "category2" : "unica",
           "category3": "Fitness",
-          "description": "Banda Elastica",
-          "colores": "",
+          "description": "Balones",
+          "color1": "",
           "talla": "",
-          "precio":"",
+          "precio":"$120.000",
           "REF": ""
-
         },
         {
           "id": 40,
-          "title": "Bandas elasticas",
+          "title": "Bandas de resistencia",
           "cover": "http://allwear.com.co/images/fitness/bandas_elasticas.jpg",
           "category1": "Fitness",
           "category2" : "unica",
           "category3": "Fitness",
-          "description": "Banda Elastica",
-          "colores": "",
+          "description": "Bandas de resistencia en diferentes color1",
+          "color1": "",
           "talla": "",
-          "precio":"",
+          "precio":"$70.000",
           "REF": ""
 
         },
         {
           "id": 41,
-          "title": "Cinturon doble",
-          "cover": "http://allwear.com.co/images/fitness/cinturon_2_b.jpg",
+          "title": "Cinturon con 2 botellas",
+          "cover": "http://allwear.com.co/images/fitness/dobles.png",
           "category1": "Fitness",
           "category2" : "unica",
           "category3": "Fitness",
-          "description": "Cinturon doble",
-          "colores": "Negro",
+          "description": "Cinturon con 2 botellas",
+          "color1": "Negro",
           "talla": "",
-          "precio":"",
+          "precio":"$85.000",
           "REF": ""
 
         },
         {
           "id": 42,
-          "title": "colchoneta",
-          "cover": "http://allwear.com.co/images/fitness/colchoneta.jpg",
+          "title": "Mats 5 mms",
+          "cover": "http://allwear.com.co/images/fitness/mats5.png",
           "category1": "Fitness",
           "category2" : "unica",
           "category3": "Fitness",
-          "description": "colchoneta",
-          "colores": "",
+          "description": "Excelentes para llevar contigo",
+          "color1": "",
           "talla": "",
-          "precio":"",
+          "precio":"$45.000",
           "REF": ""
-
-        },
-        {
-          "id": 43,
-          "title": "Trusa de diseño cuello alto",
-          "cover": "http://allwear.com.co/images/fitness/colchoneta5.jpg",
-          "category1": "Fitness",
-          "category2" : "unica",
-          "category3": "Fitness",
-          "description": "Trusa de diseño cuello alto, manga sisa y espalda descubierta EUROTARD - Con velo en pecho, espalda y mangas",
-          "colores": "Negro",
-          "talla": "XS-S-M-L",
-          "precio":"$110.000",
-          "REF": "41596"
 
         },
         {
           "id": 44,
           "title": "Cuerda",
-          "cover": "http://allwear.com.co/images/fitness/cuerda.jpg",
+          "cover": "http://allwear.com.co/images/fitness/lazo.png",
           "category1": "Fitness",
           "category2" : "unica",
           "category3": "Fitness",
           "description": "Cuerda",
-          "colores": "",
+          "color1": "",
           "talla": "",
           "precio":"$30.000",
           "REF": ""
@@ -618,202 +518,218 @@
         {
           "id": 45,
           "title": "Guantes",
-          "cover": "http://allwear.com.co/images/fitness/guantes.jpg",
+          "cover": "http://allwear.com.co/images/fitness/guantes1.png",
           "category1": "Fitness",
           "category2" : "unica",
           "category3": "Fitness",
           "description": "guantes",
-          "colores": "Negro",
+          "color1": "Negro",
           "talla": "XS-S-M-L",
           "precio":"$45.000",
           "REF": "59899"
 
         },
         {
-          "id": 46,
-          "title": "guantes",
-          "cover": "http://allwear.com.co/images/fitness/guantes2.jpg",
-          "category1": "Fitness",
-          "category2" : "unica",
-          "category3": "Fitness",
-          "description": "guantes",
-          "colores": "Negro",
-          "talla": "",
-          "precio":"",
-          "REF": ""
-
-        },
-        {
           "id": 47,
-          "title": "pesas",
+          "title": "Macuernas encauchetadas",
           "cover": "http://allwear.com.co/images/fitness/pesas.jpg",
           "category1": "Fitness",
           "category2" : "unica",
           "category3": "Fitness",
-          "description": "pesas",
-          "colores": "",
+          "description": "Macuernas encauchetadas",
+          "color1": "",
           "talla": "",
-          "precio":"",
+          "precio":"$110.000",
           "REF": ""
 
         },
         {
           "id": 48,
-          "title": "pesas",
-          "cover": "http://allwear.com.co/images/fitness/pesas_c.jpg",
+          "title": "Mancuernas de 4 lbs",
+          "cover": "http://allwear.com.co/images/fitness/mancuernas.png",
           "category1": "Fitness",
           "category2" : "unica",
           "category3": "Fitness",
           "description": "pesas",
-          "colores": "",
+          "color1": "",
           "talla": "",
-          "precio":"",
+          "precio":"$38.000",
+          "REF": ""
+
+        },
+        {
+          "id": 70,
+          "title": "Mancuernas de 6 lbs",
+          "cover": "http://allwear.com.co/images/fitness/mancuernas.png",
+          "category1": "Fitness",
+          "category2" : "unica",
+          "category3": "Fitness",
+          "description": "pesas",
+          "color1": "",
+          "talla": "",
+          "precio":"$57.000",
+          "REF": ""
+
+        },
+        {
+          "id": 71,
+          "title": "Mancuernas de 8 lbs",
+          "cover": "http://allwear.com.co/images/fitness/mancuernas.png",
+          "category1": "Fitness",
+          "category2" : "unica",
+          "category3": "Fitness",
+          "description": "pesas",
+          "color1": "",
+          "talla": "",
+          "precio":"$75.000",
           "REF": ""
 
         },
         {
           "id": 49,
           "title": "Rueda abdominal",
-          "cover": "http://allwear.com.co/images/fitness/rueda_abdominal.jpeg",
+          "cover": "http://allwear.com.co/images/fitness/rueda_abdominal.png",
           "category1": "Fitness",
           "category2" : "unica",
           "category3": "Fitness",
           "description": "rueda abdominal",
-          "colores": "Rosado",
+          "color1": "",
           "talla": "",
-          "precio":"",
+          "precio":"60.000",
           "REF": ""
 
         },
         {
           "id": 50,
-          "title": "Pesa rusa",
-          "cover": "http://allwear.com.co/images/fitness/rusa.jpg",
+          "title": "Pesa rusa 8kgs",
+          "cover": "http://allwear.com.co/images/fitness/rusa1.png",
           "category1": "Fitness",
           "category2" : "unica",
           "category3": "Fitness",
           "description": "Pesa rusa",
-          "colores": "",
+          "color1": "",
           "talla": "",
-          "precio":"",
+          "precio":"$125.000",
+          "REF": ""
+
+        },
+        {
+          "id": 73,
+          "title": "Pesa rusa 10 kgs",
+          "cover": "http://allwear.com.co/images/fitness/rusa1.png",
+          "category1": "Fitness",
+          "category2" : "unica",
+          "category3": "Fitness",
+          "description": "Pesa rusa",
+          "color1": "",
+          "talla": "",
+          "precio":"$145.000",
+          "REF": ""
+
+        },
+        {
+          "id": 74,
+          "title": "Pesa rusa 16 kgs",
+          "cover": "http://allwear.com.co/images/fitness/rusa1.png",
+          "category1": "Fitness",
+          "category2" : "unica",
+          "category3": "Fitness",
+          "description": "Pesa rusa",
+          "color1": "",
+          "talla": "",
+          "precio":"$250.000",
           "REF": ""
 
         },
         {
           "id": 51,
-          "title": "Set de pesas",
-          "cover": "http://allwear.com.co/images/fitness/set.jpg",
+          "title": "Set de fuerza",
+          "cover": "http://allwear.com.co/images/fitness/set.png",
           "category1": "Fitness",
           "category2" : "unica",
           "category3": "Fitness",
-          "description": "set de pesas",
-          "colores": "",
+          "description": "25 kg: 1 Barra curva 5kg | 2 Discos rústicos 20kg",
+          "color1": "",
           "talla": "",
           "precio":"$400.000"
 
         },
         {
           "id": 53,
-          "title": "Set de pesas",
-          "cover": "http://allwear.com.co/images/fitness/set1.jpg",
+          "title": "Set de fuerza",
+          "cover": "http://allwear.com.co/images/fitness/set1.png",
           "category1": "Fitness",
           "category2" : "unica",
           "category3": "Fitness",
-          "description": "Set de pesas",
-          "colores": "",
+          "description": "25 kg: 1 Barra 5kg | 2 Discos rústicos 20kg",
+          "color1": "",
           "talla": "",
           "precio":"$420.000"
 
         },
         {
-          "id": 54,
-          "title": "Set de pesas",
-          "cover": "http://allwear.com.co/images/fitness/set2.jpg",
-          "category1": "Fitness",
-          "category2" : "unica",
-          "category3": "Fitness",
-          "description": "fitness",
-          "colores": "Azul claro",
-          "talla": "XS-S-M-L",
-          "precio":"$400x.000"
-
-        },
-        {
           "id": 55,
-          "title": "Set TRX",
-          "cover": "http://allwear.com.co/images/fitness/set_trx.jpg",
+          "title": "Set de suspension TRX",
+          "cover": "http://allwear.com.co/images/fitness/trx1.png",
           "category1": "Fitness",
           "category2" : "unica",
           "category3": "Fitness",
           "description": "Set TRX",
-          "colores": "",
+          "color1": "",
           "talla": "",
-          "precio":""
+          "precio":"$150.000"
 
         },
         {
           "id": 56,
-          "title": "tapete",
-          "cover": "http://allwear.com.co/images/fitness/tapete.jpeg",
+          "title": "Ligas de resistencia",
+          "cover": "http://allwear.com.co/images/fitness/resistencia.png",
           "category1": "Fitness",
           "category2" : "unica",
           "category3": "Fitness",
-          "description": "tapete",
-          "colores": "",
+          "description": "30-40 libras",
+          "color1": "",
           "talla": "",
-          "precio":""
+          "precio":"$65.000"
 
         },
         {
           "id": 57,
-          "title": "Tapete bici",
-          "cover": "http://allwear.com.co/images/fitness/tapete_bici.jpeg",
+          "title": "Piso para entrenamiento",
+          "cover": "http://allwear.com.co/images/fitness/tapete_bici.png",
           "category1": "Fitness",
           "category2" : "unica",
           "category3": "Fitness",
-          "description": "Tapete bici",
-          "colores": "",
+          "description": "100 X 140 X 0.6 cms",
+          "color1": "",
           "talla": "",
-          "precio":""
+          "precio":"$110.000"
 
         },
         {
           "id": 58,
-          "title": "tapete",
-          "cover": "http://allwear.com.co/images/fitness/tapetem.jpg",
+          "title": "Cinturon elastico para correr",
+          "cover": "http://allwear.com.co/images/fitness/correr1.png",
           "category1": "Fitness",
           "category2" : "unica",
           "category3": "Fitness",
-          "description": "tapete ",
-          "colores": "",
+          "description": "Excelente cinturon para correr",
+          "color1": "",
           "talla": "",
-          "precio":""
+          "precio":"$50.000"
 
         },
         {
           "id": 59,
-          "title": "tapete",
-          "cover": "http://allwear.com.co/images/fitness/tapettes.jpg",
+          "title": "Bloque para yoga",
+          "cover": "http://allwear.com.co/images/fitness/bloque_yoga.png",
           "category1": "Fitness",
           "category2" : "unica",
           "category3": "Fitness",
-          "description": "Tapete",
-          "colores": "",
+          "description": "Apoyate en tus entramientos de yoga",
+          "color1": "",
           "talla": "",
           "precio":""
-        },
-        {
-          "id": 60,
-          "title": "trx",
-          "cover": "http://allwear.com.co/images/fitness/trx.jpg",
-          "category1": "Fitness",
-          "category2" : "unica",
-          "category3": "Fitness",
-          "description": "trx",
-          "colores": "",
-          "talla": "",
-          "precio":""
-
         }
       ]
     }

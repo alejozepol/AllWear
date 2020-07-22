@@ -7,11 +7,11 @@ import Layout from '../components/Layout';
 import '../styles/App.scss';
 
 const App = () => (
-  <BrowserRouter>
+  <BrowserRouter basename='./'>
     <Layout>
       <Switch>
         <Route exact path='/' component={Home} />
-        <Route exact path='/tienda' component={Tienda} />
+        <Route exact path='/portafolio' component={Tienda} />
         <Route component={NotFound} />
       </Switch>
     </Layout>

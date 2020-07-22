@@ -1,6 +1,5 @@
 import React, { useState } from 'react';
 import Product from './Product';
-import '../styles/Shop.scss';
 import { initialState } from '../../initialState.json';
 
 const Shop = () => {
@@ -30,7 +29,7 @@ const Shop = () => {
     <div className='shop-container'>
       <div className='aside-container'>
         <div className='title'>
-          <h2 onClick={() => filterProductsInialState()}>Categorias</h2>
+          <h2 onClick={() => filterProductsInialState()}>CATEGORIAS</h2>
         </div>
         <div className='aside'>
           <ul>
@@ -68,10 +67,11 @@ const Shop = () => {
         </div>
       </div>
       <div className='shop-box'>
-        <div className='shop-box_title'><h2>Productos</h2></div>
+        <div className='shop-box_title'><h2>PRODUCTOS</h2></div>
         <div className='shop-box__container'>
           {products.map((item) => <Product key={item.id} {...item} />)}
         </div>
+        <h3 onClick={() => filterProductsInialState()}>Todos los productos</h3>
       </div>
     </div>
   );

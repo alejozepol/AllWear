@@ -1,14 +1,44 @@
-@media only screen and  (max-width: 700px) {
+@media screen and  (max-width: 800px) {
     div .header{
-        background-color: black;
         height: auto;
         align-items: center;
     }
+    .portada-text{
+        width: 800px;
+        margin: auto;
+        position: relative;
+    
+    }
+    .background{
+        background-image: url(http://allwear.com.co/images/background_mov.jpeg);
+        background-size: cover;;
+        background-position: bottom;
+    }
+    .portada-text_title{
+        color: #f3ad8d;
+        font-size: 80px;  
+        position: absolute; 
+        top:350px;
+        font-family: 'Spartan', sans-serif;
+        text-align: center;
+    }
+    .portada-text_slogan{
+        color: white;
+        font-size: 30px;  
+        position: relative; 
+        top:120px;
+        text-align: center;
+        font-family: 'Spartan', sans-serif; 
+    
+    }
     .shop-container {
         display: block;
+        width: 800px;
     }
     .footer-container {
       display: block;
+      margin: auto;
+      width: 800px;
     }
     .shop-box__container{
         display: grid;
@@ -16,86 +46,195 @@
         margin: auto;
         grid-gap: 20px;
     }
+    .Contacto{
+        width: 800px;  
+        background: linear-gradient(to bottom, #ec8c86, #f3ad8d);
+    }
     .contacto-container{
         margin: auto;
-
+        width: 800px;
         display: block;
-        padding: 40px;
+        padding: 0;
+    }
+    .contacto-container_a{
+        padding-top: 50;
+    }
+    .footer{
+        text-align: center;
+    }
+    .footer-img{
+        margin: auto;
+    }
+    .footer-img_img{
+        margin: auto;
+    }
+    .product-container{
+        text-align: center;
+    }
+    .product-img{
+        margin: auto;
     }
   }
-  @media screen and (max-width: 480px) {
+@media screen and  (max-width: 700px) {
     div .header{
-        background-color: black;
         height: auto;
         align-items: center;
     }
-    .shop-container{
-        display: block;
+    .portada-text{
+        width: 700px;
+        margin: auto;
+        position: relative;
+    
     }
-    .footer-container{
-        max-width: 480px;
-        display: grid;
-        grid-template-columns: 1fr;
-        margin: auto; }
-    .shop-box__container{
+    .background{
+        background-image: url(http://allwear.com.co/images/background_mov.jpeg);
+        background-size: cover;;
+        background-position: bottom;
+    }
+    .portada-text_title{
+        color: #f3ad8d;
+        font-size: 80px;  
+        position: absolute; 
+        top:350px;
+        font-family: 'Spartan', sans-serif;
+        text-align: center;
+    }
+    .portada-text_slogan{
+        color: white;
+        font-size: 30px;  
+        position: relative; 
+        top:120px;
+        text-align: center;
+        font-family: 'Spartan', sans-serif; 
+    
+    }
+    .shop-container {
         display: block;
-        grid-template-columns: repeat(1,1fr);
+        width: 700px;
+    }
+    .footer-container {
+      display: block;
+      margin: auto;
+      width: 700px;
+    }
+    .shop-box__container{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
         margin: auto;
         grid-gap: 20px;
     }
+    .Contacto{
+        width: 700px;  
+        background: linear-gradient(to bottom, #ec8c86, #f3ad8d);
+    }
+    .contacto-container{
+        margin: auto;
+        width: 700px;
+        display: block;
+        padding: 0;
+    }
+    .contacto-container_a{
+        padding-top: 50;
+    }
+    .footer{
+        text-align: center;
+    }
+    .footer-img{
+        margin: auto;
+    }
+    .footer-img_img{
+        margin: auto;
+    }
+    .product-container{
+        text-align: center;
+    }
+    .product-img{
+        margin: auto;
+    }
   }
+  @media screen and (max-width: 500px) {
+    div .header{
+        height: auto;
+        align-items: center;
+    }
+    .portada{
+        height: 70vh;
+    }
+    .background{
+        background-image: url(http://allwear.com.co/images/background_mov.jpeg);
+        background-size: cover;;
+        background-position: bottom;
+    }
+    .portada-text{
+        width: 500px;
+        margin: auto;
+        position: relative;
+    
+    }
+    .portada-text_title{
+        color: #f3ad8d;
+        font-size: 50px;  
+        position: absolute; 
+        top:200px;
+        font-family: 'Spartan', sans-serif;
+        text-align: center;
+    }
+    .portada-text_slogan{
+        color: white;
+        font-size: 30px;  
+        position: relative; 
+        top:120px;
+        text-align: center;
+        font-family: 'Spartan', sans-serif; 
+    
+    }
+    .shop-box{
+        width: 500px;
+    }
+    .shop-container {
+        display: block;
+        width: 500px;
+    }
+    .product-img{
+        width: 350px;
+        height: 350px;
+    }
+    .footer-container {
+      display: block;
+      margin: auto;
+      width: 500px;
+    }
+    .shop-box__container{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        margin: auto;
+        grid-gap: 20px;
+        width: 500px;
 
-//   @media screen and (max-width: 1024px) {
-//     .footer-container{
-//         max-width: 1040px;
-//         display: block;
-//         grid-template-columns: 1fr;
-//         margin: auto; }
-//     .shop-box__container{
-//         display: grid;
-//         grid-template-columns: repeat(1,1fr);
-//         margin: auto;
-//         grid-gap: 20px;
-//     }
-//   }
-
-
-// @media screen and  (min-width: 768px) {
-//     .footer-container {
-//       display: block;
-//     }
-//     .shop-box__container{
-//         display: grid;
-//         grid-template-columns: repeat(2,1fr);
-//         margin: auto;
-//         grid-gap: 20px;
-//     }
-//   }
-//   @media screen and (min-width: 480px) {
-//     .footer-container{
-//         max-width: 1040px;
-//         display: block;
-//         grid-template-columns: 1fr;
-//         margin: auto; }
-//     .shop-box__container{
-//         display: grid;
-//         grid-template-columns: repeat(1,1fr);
-//         margin: auto;
-//         grid-gap: 20px;
-//     }
-//   }
-
-//   @media screen and (min-width: 320px) {
-//     .footer-container{
-//         max-width: 1040px;
-//         display: block;
-//         grid-template-columns: 1fr;
-//         margin: auto; }
-//     .shop-box__container{
-//         display: grid;
-//         grid-template-columns: repeat(1,1fr);
-//         margin: auto;
-//         grid-gap: 20px;
-//     }
-//   }
-
+    }
+    .product{
+        margin: auto;
+        width: 500px;  
+    }
+    .Contacto{
+        width: 500px;  
+    }
+    .contacto-container{
+        margin: auto;
+        width: 500px;
+        display: block;
+        padding: 0;
+    }
+    .contacto-container_a{
+        padding-top: 50;
+    }
+    .footer{
+        text-align: center;
+    }
+    .footer-img{
+        margin: auto;
+    }
+    .footer-img_img{
+        margin: auto;
+    }
+  }

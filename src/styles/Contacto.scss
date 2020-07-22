@@ -1,17 +1,23 @@
 @import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css);
 
 .Contacto{
-    width: 1040px;
+
     margin: auto;
     justify-content: center;
+    background: linear-gradient(to bottom, #ec8c86, #f3ad8d);
 }
 .contacto-container{
     margin: auto;
     justify-content: space-evenly;
     display: flex;
     padding: 40px;
+    width: 1040px;
 }
-
+.contacto-container_a{
+    width: auto;
+    justify-content: center;
+    text-align: center;
+}
 .facebook{
     background-color: blue;
 }
